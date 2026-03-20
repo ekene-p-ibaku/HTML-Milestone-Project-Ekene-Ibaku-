@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EkeneCraft</title>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: sans-serif; margin: 0; padding: 0; background: #fff; color: #111; }
+    img, video { max-width: 100%; display: block; }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="EkeneCraft logo">
+      <rect width="40" height="40" rx="8" fill="#1a2a4a"/>
+      <circle cx="20" cy="20" r="10" stroke="#fff" stroke-width="2"/>
+      <ellipse cx="20" cy="20" rx="5" ry="10" stroke="#fff" stroke-width="1.5"/>
+      <line x1="10" y1="20" x2="30" y2="20" stroke="#fff" stroke-width="1.5"/>
+    </svg>
+  </header>
+
+  <main>
+
+    <!-- SECTION 1 — Hero -->
+    <section class="hero-section">
+      <div class="hero-text">
+        <h1>Explore Our Solar System Through Data</h1>
+        <p>
+          Understanding our solar system has never been more exciting. With modern
+          space telescopes, planetary probes, and data science, we can now analyse
+          the distance, gravity, and density of all nine planets in our solar system
+          more accurately than ever before.
+        </p>
+        <a href="#">Explore the Data</a>
+        <a href="#contact-section">Contact Us</a>
+      </div>
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=600&auto=format&fit=crop"
+          alt="A photorealistic image of Earth as seen from space"
+          width="500"
+          height="500"
+        />
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- SECTION 2 — Video -->
+    <section class="video-section">
+      <video
+        src="https://www.w3schools.com/html/mov_bbb.mp4"
+        autoplay
+        muted
+        loop
+        playsinline
+        width="500"
+        height="350"
+        aria-label="A video visualisation of planetary data and space exploration"
+      ></video>
+      <div class="video-text">
+        <h2>How Planetary Data Helps Us Understand Space</h2>
+        <p>
+          Every planet in our solar system tells a unique story. By studying planetary
+          data, including mass, orbital period, distance from the sun, and atmospheric
+          composition, we can gain deep insights into how planets form, evolve, and
+          sometimes develop the conditions necessary for life. Space data makes the
+          invisible visible.
+        </p>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- SECTION 3 — Images (Planet grid) -->
+    <section class="images-section">
+      <h2>Visualizing the Differences Between Planets</h2>
+      <p>
+        Each planet in our solar system is strikingly different. These images
+        highlight key visual and atmospheric features that distinguish each world
+        and reveal the incredible diversity within our cosmic neighbourhood.
+      </p>
+
+      <div class="planet-grid">
+
+        <figure class="planet-figure">
+          <img
+            src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=300&auto=format&fit=crop"
+            alt="A view of Earth from space showing blue oceans and white clouds"
+            width="300"
+            height="200"
+          />
+          <figcaption>
+            <strong>Earth</strong><br />
+            Home to all known life, Earth's blue oceans cover over 70% of its surface.
+          </figcaption>
+        </figure>
+
+        <figure class="planet-figure">
+          <img
+            src="https://images.unsplash.com/photo-1545156521-77bd85671d30?w=300&auto=format&fit=crop"
+            alt="A close-up view of Mars showing its red rocky terrain"
+            width="300"
+            height="200"
+          />
+          <figcaption>
+            <strong>Mars</strong><br />
+            The Red Planet hosts the tallest volcano in the solar system, (Olympus Mons).
+          </figcaption>
+        </figure>
+
+        <figure class="planet-figure">
+          <img
+            src="https://images.unsplash.com/photo-1630839437035-dac17da580d0?w=300&auto=format&fit=crop"
+            alt="An image of Jupiter showing its iconic Great Red Spot storm"
+            width="300"
+            height="200"
+          />
+          <figcaption>
+            <strong>Jupiter</strong><br />
+            Jupiter's Great Red Spot is a storm that has raged for over 350 years.
+          </figcaption>
+        </figure>
+
+        <figure class="planet-figure">
+          <img
+            src="https://images.unsplash.com/photo-1614314107768-6018061b5b72?w=300&auto=format&fit=crop"
+            alt="Saturn and its prominent ring system photographed from space"
+            width="300"
+            height="200"
+          />
+          <figcaption>
+            <strong>Saturn</strong><br />
+            Saturn's spectacular rings are made mostly of ice and rocky debris.
+          </figcaption>
+        </figure>
+
+        <figure class="planet-figure">
+          <img
+            src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=300&auto=format&fit=crop"
+            alt="A wide view of the Milky Way and deep space from a dark location"
+            width="300"
+            height="200"
+          />
+          <figcaption>
+            <strong>Neptune</strong><br />
+            The windiest planet, Neptune's storms can reach speeds of 2,100 km/h.
+          </figcaption>
+        </figure>
+
+        <figure class="planet-figure">
+          <img
+            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=300&auto=format&fit=crop"
+            alt="A glowing view of the sun from space"
+            width="300"
+            height="200"
+          />
+          <figcaption>
+            <strong>Venus</strong><br />
+            Despite being farther from the Sun, Venus is hotter than Mercury at 465°C.
+          </figcaption>
+        </figure>
+
+        <figure class="planet-figure">
+          <img
+            src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=300&auto=format&fit=crop"
+            alt="Earth and the Moon photographed together from space"
+            width="300"
+            height="200"
+          />
+          <figcaption>
+            <strong>Mercury</strong><br />
+            The smallest planet and closest to the Sun, Mercury has no atmosphere.
+          </figcaption>
+        </figure>
+
+        <figure class="planet-figure">
+          <img
+            src="https://images.unsplash.com/photo-1581822261290-991b38693d1b?w=300&auto=format&fit=crop"
+            alt="A blue-tinted planetary body representing Uranus"
+            width="300"
+            height="200"
+          />
+          <figcaption>
+            <strong>Uranus</strong><br />
+            Uranus rotates on its side, giving it the most extreme seasons of any planet.
+          </figcaption>
+        </figure>
+
+        <figure class="planet-figure">
+          <img
+            src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=300&auto=format&fit=crop"
+            alt="Stars and a distant nebula in deep space"
+            width="300"
+            height="200"
+          />
+          <figcaption>
+            <strong>Pluto</strong><br />
+            Once the ninth planet, Pluto was reclassified as a dwarf planet in 2006.
+          </figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- SECTION 4 — Table -->
+    <section class="table-section">
+      <h2>Planetary Facts at a Glance</h2>
+      <p>
+        Below is a comparison of key facts across our solar system's planets. This
+        table highlights key physical and orbital properties including distance from
+        the Sun, mass, gravity, and density.
+      </p>
+
+      <table border="1" cellpadding="8" cellspacing="0">
+        <caption>
+          Selected planetary parameters from the National Space Science Data Center, NASA.
+        </caption>
+
+        <thead>
+          <tr>
+            <th scope="col">Planet</th>
+            <th scope="col">Mass (10²⁴ kg)</th>
+            <th scope="col">Diameter (km)</th>
+            <th scope="col">Density (kg/m³)</th>
+            <th scope="col">Gravity (m/s²)</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">Mercury</th>
+            <td>0.330</td>
+            <td>4,879</td>
+            <td>5,427</td>
+            <td>3.7</td>
+          </tr>
+          <tr>
+            <th scope="row">Venus</th>
+            <td>4.87</td>
+            <td>12,104</td>
+            <td>5,243</td>
+            <td>8.9</td>
+          </tr>
+          <tr>
+            <th scope="row">Earth</th>
+            <td>5.97</td>
+            <td>12,756</td>
+            <td>5,514</td>
+            <td>9.8</td>
+          </tr>
+          <tr>
+            <th scope="row">Mars</th>
+            <td>0.642</td>
+            <td>6,792</td>
+            <td>3,933</td>
+            <td>3.7</td>
+          </tr>
+          <tr>
+            <th scope="row">Jupiter</th>
+            <td>1,898</td>
+            <td>142,984</td>
+            <td>1,326</td>
+            <td>23.1</td>
+          </tr>
+          <tr>
+            <th scope="row">Saturn</th>
+            <td>568</td>
+            <td>120,536</td>
+            <td>687</td>
+            <td>9.0</td>
+          </tr>
+          <tr>
+            <th scope="row">Uranus</th>
+            <td>86.8</td>
+            <td>51,118</td>
+            <td>1,271</td>
+            <td>8.7</td>
+          </tr>
+          <tr>
+            <th scope="row">Neptune</th>
+            <td>102</td>
+            <td>49,528</td>
+            <td>1,638</td>
+            <td>11.0</td>
+          </tr>
+        </tbody>
+
+      </table>
+    </section>
+
+    <hr />
+
+    <!-- SECTION 5 — Contact Form -->
+    <section class="contact-section" id="contact-section">
+      <h2>Have Questions About Planetary Science?</h2>
+      <p>
+        Interested in learning more about planets, or finding a like-minded community?
+        Fill in your details below and our team will get back to you as soon as possible.
+      </p>
+
+      <form action="#" method="post">
+
+        <fieldset>
+          <legend>Your Details</legend>
+
+          <div class="form-group">
+            <label for="first-name">First Name</label><br />
+            <input
+              type="text"
+              id="first-name"
+              name="first_name"
+              minlength="10"
+              maxlength="20"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Last Name</label><br />
+            <input
+              type="text"
+              id="last-name"
+              name="last_name"
+              minlength="10"
+              maxlength="20"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="e.g. hello@example.com"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label><br />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              maxlength="11"
+              required
+            />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Location</legend>
+
+          <div class="form-group">
+            <label for="city">City</label><br />
+            <select id="city" name="city" required>
+              <option value="" disabled selected>Select your city</option>
+              <option value="abuja-central">Abuja Central</option>
+              <option value="garki">Garki</option>
+              <option value="wuse">Wuse</option>
+              <option value="maitama">Maitama</option>
+              <option value="asokoro">Asokoro</option>
+              <option value="gwarinpa">Gwarinpa</option>
+              <option value="kubwa">Kubwa</option>
+              <option value="lugbe">Lugbe</option>
+              <option value="kuje">Kuje</option>
+              <option value="nyanya">Nyanya</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Your Message</legend>
+
+          <div class="form-group">
+            <label for="message">Message (max 100 characters)</label><br />
+            <textarea
+              id="message"
+              name="message"
+              maxlength="100"
+              required
+            ></textarea>
+          </div>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+
+      </form>
+    </section>
+
+  </main>
+
+  <hr />
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-about">
+      <h4>About</h4>
+      <p>
+        EkeneCraft is dedicated to making planetary science accessible to everyone.
+        Explore our solar system through data, visuals, and community.
+      </p>
+      <p>&copy; <strong>EkeneCraft (2026)</strong>. <strong>#TS Academy</strong>.</p>
+    </div>
+
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <ul>
+        <li><a href="#">Solar System</a></li>
+        <li><a href="#">Planets</a></li>
+        <li><a href="#">Moons</a></li>
+        <li><a href="#">Asteroids</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Use</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
